@@ -20,7 +20,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
+// H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5035369e-8d85-4510-8df6-213e567f7bcf' 이런식으로 로그가 뜬다.
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class PostsApiControllerTest {
