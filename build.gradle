@@ -31,16 +31,18 @@ dependencies {
 
     // lombok
     implementation('org.projectlombok:lombok:1.18.20')
-    implementation 'junit:junit:4.13.1'
+    implementation('junit:junit:4.13.1')
     annotationProcessor('org.projectlombok:lombok:1.18.20')
     testImplementation('org.projectlombok:lombok:1.18.20')
     testAnnotationProcessor('org.projectlombok:lombok:1.18.20')
 
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
-    implementation("org.mariadb.jdbc:mariadb-java-client")
+    implementation('org.mariadb.jdbc:mariadb-java-client')
+    implementation ('org.springframework.boot:spring-boot-starter-oauth2-client')
     runtimeOnly('com.h2database:h2')
 
     testImplementation('org.springframework.boot:spring-boot-starter-test:2.5.4')
+
 
 }
 test { // (2)
